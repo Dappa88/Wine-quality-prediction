@@ -7,7 +7,7 @@ This repository contains an amazing machine learning model for predicting wine q
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Dataset](#dataset)
+- [Dataset](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Model Architecture](#model-architecture)
@@ -37,19 +37,17 @@ git clone https://github.com/Dappa88/wine-quality-prediction.git
 
 The project follows a simple structure for easy understanding and usage. The main components are:
 
-- `wine_model.py`: The class containing the TensorFlow model and its training functions.
-- `data_preprocessing.py`: The class responsible for loading and preprocessing the dataset.
-- `train.py`: The script to initiate model training and evaluation.
+- `wine_model.ipynb`: The class containing the TensorFlow model and its training functions.
+- `CLASS-data_preprocessing`: The class responsible for loading and preprocessing the dataset.
+- `CLASS-data_processing`: The script to initiate model training and evaluation.
 
 To train the model, follow these steps:
 
 1. Ensure you have installed all dependencies (see [Installation](#installation)).
-2. Customize the hyperparameters and configuration in `train.py` if needed.
+2. Customize the hyperparameters and configuration in `wine_prediction.ipynb` if needed.
 3. Run the training script:
 
-```bash
-python wine_prediction
-```
+
 
 The model will be trained on the dataset, and evaluation metrics will be displayed on the console.
 
