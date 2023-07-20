@@ -37,14 +37,14 @@ git clone https://github.com/Dappa88/wine-quality-prediction.git
 
 The project follows a simple structure for easy understanding and usage. The main components are:
 
-- `wine_model.ipynb`: The class containing the TensorFlow model and its training functions.
-- `CLASS-data_preprocessing`: The class responsible for loading and preprocessing the dataset.
-- `CLASS-data_processing`: The script to initiate model training and evaluation.
+- `wine.ipynb`: The class containing the TensorFlow model and its training functions.
+- `CLASS-data_processing`: The class responsible for loading and preprocessing the dataset.
+- `CLASS-data models`: The script to initiate model training and evaluation.
 
 To train the model, follow these steps:
 
 1. Ensure you have installed all dependencies (see [Installation](#installation)).
-2. Customize the hyperparameters and configuration in `wine_prediction.ipynb` if needed.
+2. Customize the hyperparameters and configuration in `wine.ipynb` if needed.
 3. Run the training script:
 
 
@@ -59,7 +59,7 @@ The machine learning model used in this project is built using TensorFlow's Kera
 2. Hidden Layers: Consist of several dense layers with activation functions to introduce non-linearity.
 3. Output Layer: Produces a single scalar value representing the predicted wine quality.
 
-The model's architecture and hyperparameters can be modified and experimented with in the `wine_model.py` file.
+The model's architecture and hyperparameters can be modified and experimented with in the `wine.ipynb` file.
 
 ## Performance
 
